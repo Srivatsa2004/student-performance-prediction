@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Generated at runtime (model is retrained on first launch)
+models/*.joblib
+data/*.db
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
